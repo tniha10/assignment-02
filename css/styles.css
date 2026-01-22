@@ -79,64 +79,9 @@ nav{
     width: 20px;
 }
 
-.about-container{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 80px 24px 100px;
-    text-align: center;
-}
-
-.about-container h2{
-    font-size: 30px;
-    margin-bottom: 12px;
-    font-style: bold;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0%;
-    text-transform: capitalize;
-}
-
-.about-container p{
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: 300;
-    /* line-height: 12px;
-    letter-spacing: 0%; */
-}
-
-.about-parts{
-    color: #FFFFFF;
-    font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto 48px;
-    line-height: 1.6;
-    text-align: center;
-}
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-}
-
-.grid-card{
-    background: rgba(11, 16, 32, 0.8);
-    padding: 24px 20px;
-    border-radius: 16px;
-}
-
-.grid-container h3{
-    font-size: 24px;
-    margin-bottom: 6px;
-}
-
-.grid-container p{
-    font-size: 13px;
-    color: #A0A3B5;
-}
-
 @media (max-width: 576px) {
-    .nav-menu, .nav-button{
+   
+ .nav-menu, .nav-button{
         display: none;
     }
 
